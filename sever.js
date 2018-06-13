@@ -6,6 +6,7 @@ net = require('net')
 // Keep a pool of sockets ready for everyone
 // Avoid dead sockets by responding to the 'end' event
 var sockets = [];
+var port = process.env.PORT || 8080;
 
 // Create a TCP socket listener
 var s = net.Server(function (socket) {
