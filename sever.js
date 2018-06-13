@@ -1,5 +1,5 @@
 // JavaScript source code
-/*net = require('net')
+net = require('net')
 
 // Supports multiple client chat application
 
@@ -37,5 +37,5 @@ var s = net.Server(function (socket) {
 
 });
 
-s.listen(8080);*/
+s.listen(8080);
 console.log('System waiting at http://localhost:');
