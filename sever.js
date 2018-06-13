@@ -5,8 +5,8 @@ net = require('net')
 
 // Keep a pool of sockets ready for everyone
 // Avoid dead sockets by responding to the 'end' event
-var sockets = [];
-var port = process.env.PORT || 8080;
+/*var sockets = [];
+
 
 // Create a TCP socket listener
 var s = net.Server(function (socket) {
@@ -37,5 +37,5 @@ var s = net.Server(function (socket) {
 
 });
 
-s.listen(8080);
+s.listen(8080);*/
 console.log('System waiting at http://localhost:');
