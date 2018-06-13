@@ -38,4 +38,4 @@ var s = net.Server(function (socket) {
 });
 
 s.listen(8080);
-console.log('System waiting at http://localhost:' +port);
+console.log('System waiting at http://localhost:');
